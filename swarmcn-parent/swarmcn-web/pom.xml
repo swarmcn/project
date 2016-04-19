@@ -120,6 +120,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>web</finalName>
+    <finalName>swarmcn-web</finalName>
   </build>
 </project>

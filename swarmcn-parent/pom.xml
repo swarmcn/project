@@ -8,7 +8,6 @@
   <name>swarmcn-parent</name>
   <modules>
     <module>swarmcn-api</module>
-    <module>com.swarmcn</module>
     <module>swarmcn-user</module>
     <module>swarmcn-web</module>
   </modules>
