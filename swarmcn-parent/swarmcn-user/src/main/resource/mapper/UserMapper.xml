@@ -17,4 +17,10 @@
     from user
     where username = #{username,jdbcType=VARCHAR}
   </select>
+  <select id="findUserByUserId" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from user
+    where id = #{id,jdbcType=int}
+  </select>
 </mapper>

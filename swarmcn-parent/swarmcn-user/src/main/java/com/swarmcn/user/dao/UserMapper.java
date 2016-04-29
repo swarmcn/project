@@ -5,5 +5,5 @@ import com.swarmcn.api.entity.User;
 public interface UserMapper {
 
 	User findUserByUsername(String username);
-	
+	User findUserById(Integer id);
 }
